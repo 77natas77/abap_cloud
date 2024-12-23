@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZTFJC_CUSTOMERCUS'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZTFJC_CUSTOMERCUS'
+  }
+}
+define service ZTFJUI_CUSTOMER_O4CUS provider contracts odata_v4_ui {
+  expose ZTFJC_CUSTOMERCUS;
+}

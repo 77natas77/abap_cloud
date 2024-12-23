@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition de prueba'
+define service ZTFJ_SERV_DEF {
+  expose ZTFJ_DATA_DEF as Connection;
+}
